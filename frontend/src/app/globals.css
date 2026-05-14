@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary colors */
+    --primary: #3b82f6;
+    --primary-soft: #eff6ff;
+    --primary-600: #2563eb;
+    --primary-700: #1d4ed8;
+    
+    /* Gradients */
+    --gradient-from: #3b82f6;
+    --gradient-to: #1d4ed8;
+    
+    /* Text colors */
+    --text-main: #111827;
+    --text-muted: #6b7280;
+    --text-light: #9ca3af;
+    
+    /* Background colors */
+    --bg-deep: #f3f4f6;
+    --bg-card: #ffffff;
+    
+    /* Border colors */
+    --border: #e5e7eb;
+    --border-light: #f3f4f6;
+    
+    /* Status colors */
+    --success: #10b981;
+    --warning: #f59e0b;
+    --error: #ef4444;
+    --accent: #8b5cf6;
+    
+    /* Extended theme variables */
+    --bg-card-hover: #fafafa;
+    --badge-bg: rgba(59, 130, 246, 0.08);
+    --glow: rgba(59, 130, 246, 0.15);
+    --hero-overlay: rgba(255, 255, 255, 0.85);
+    --timeline-line: #3b82f6;
+    --chip-bg: rgba(59, 130, 246, 0.08);
+  }
+  
+  body {
+    @apply bg-white text-gray-900;
+  }
+}

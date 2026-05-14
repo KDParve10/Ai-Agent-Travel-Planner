@@ -1,0 +1,45 @@
+{
+  "constraints": {
+    "destination_region": "Japan",
+    "cities": ["Tokyo", "Kyoto"],
+    "duration_days": 5,
+    "budget_total": 3000.0,
+    "currency": "USD",
+    "preferences": ["food", "temples"],
+    "avoidances": ["crowds"]
+  },
+  "activities": [
+    {
+      "id": "tky_food_01",
+      "name": "Shibuya Food Tour",
+      "city": "Tokyo",
+      "type": "food",
+      "estimated_duration_mins": 180,
+      "crowd_level": "medium",
+      "cost_band": "mid-range",
+      "must_do": true,
+      "rationale": "High quality food in a central location."
+    },
+    {
+      "id": "kyo_temple_01",
+      "name": "Kinkaku-ji",
+      "city": "Kyoto",
+      "type": "temple",
+      "estimated_duration_mins": 90,
+      "crowd_level": "high",
+      "cost_band": "budget",
+      "must_do": true,
+      "rationale": "Iconic Golden Pavilion."
+    }
+  ],
+  "budget": {
+    "stay_total": 1200.0,
+    "transport_total": 800.0,
+    "food_total": 600.0,
+    "activities_total": 400.0,
+    "grand_total": 3000.0,
+    "within_budget": true,
+    "violations": [],
+    "suggested_swaps": []
+  }
+}
