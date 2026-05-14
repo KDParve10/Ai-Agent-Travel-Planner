@@ -83,6 +83,6 @@ All agents communicate using the shared typed schemas defined in Phase 1:
 - `ReviewReport`
 
 ## 6. Deployment Flow
-- **Backend**: Deployed on Render (Web Service).
-- **Frontend**: Deployed and hosted on Vercel.
+- **Backend**: Deployed as Serverless Functions on Vercel.
+- **Frontend**: Deployed on Vercel (Next.js).
 - **Secrets**: Managed via environment variables.
