@@ -83,6 +83,6 @@ All agents communicate using the shared typed schemas defined in Phase 1:
 - `ReviewReport`
 
 ## 6. Deployment Flow
-- **Backend**: Deployed using Streamlit.
+- **Backend**: Deployed on Render (Web Service).
 - **Frontend**: Deployed and hosted on Vercel.
 - **Secrets**: Managed via environment variables.
